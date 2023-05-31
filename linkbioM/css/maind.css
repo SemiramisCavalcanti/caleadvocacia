@@ -1,0 +1,124 @@
+:root {
+    --vinho: #561d25;
+    --amarelo: #e6af2e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* fonts */
+@font-face {
+    font-family: britanny;
+    src: url(../font/Brittany.otf);
+}
+
+@font-face {
+    font-family: hatton;
+    src: url(../font/PP-Hatton-Medium-500.otf);
+}
+
+body {
+    background-color: var(--vinho);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-bio {
+    width: 400px;
+    height: 1400px;
+    margin-top: 2rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.perfil .circulo-perfil {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.perfil .circulo-perfil ul li {
+    position: absolute;
+    top: 0;
+    list-style: none;
+    transform-origin: 0 6rem;
+    /* calc --> 270graus/36 variaveis = 7,5 */
+    transform: rotate(calc(6.5deg * var(--i)));
+}
+
+.perfil .foto-perfil {
+    position: relative;
+    border-radius: 50%;
+    width: 9rem;
+    height: 9rem;
+    border: var(--amarelo) solid 3px;
+    margin-left: -9.5rem;
+    margin-top: 2rem;
+
+}
+
+.titulo-profisao {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6.5rem;
+    font-family: britanny;
+    font-size: 1.5rem;
+}
+
+.titulo-nome {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6rem;
+    font-family: hatton;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: -0.5rem;
+}
+
+.titulo-sobrenome {
+    margin-top: -1.7rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12.8rem;
+    font-family: britanny;
+    font-size: 3rem;
+}
+
+.banner-servico {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.banner-servico img{
+    width: 23rem;
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    border: var(--amarelo) solid 2px;
+}
+
+.logo {
+    width: 5rem;
+}
