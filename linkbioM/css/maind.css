@@ -1,6 +1,7 @@
 :root {
     --vinho: #561d25;
-    --amarelo: #e6af2e;
+    --bege: #cfa574;
+    --branco:#ffff;
 }
 
 * {
@@ -11,6 +12,7 @@
 
 body{
     overflow-x: hidden;
+    color: var(--branco);
 }
 
 /* fonts */
@@ -35,7 +37,7 @@ body {
     width: 400px;
     height: 1400px;
     margin-top: 2rem;
-    color: aliceblue;
+    color: var(branco);
     text-align: center;
 }
 
@@ -71,7 +73,7 @@ body {
     border-radius: 50%;
     width: 9rem;
     height: 9rem;
-    border: var(--amarelo) solid 3px;
+    border: var(--bege) solid 5px;
     margin-left: -9.5rem;
     margin-top: 2rem;
 
@@ -116,7 +118,7 @@ body {
     width: 23rem;
     margin-bottom: 1rem;
     border-radius: 10%;
-    border: var(--amarelo) solid 2px;
+    border: var(--bege) solid 2px;
 }
 
 .logo {
