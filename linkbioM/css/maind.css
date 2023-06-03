@@ -1,7 +1,7 @@
 :root {
     --vinho: #561d25;
     --bege: #cfa574;
-    --branco:#ffff;
+    --branco: #ffff;
 }
 
 * {
@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     overflow-x: hidden;
     color: var(--branco);
 }
@@ -25,14 +25,17 @@ body{
     font-family: hatton;
     src: url(../font/PP-Hatton-Medium-500.otf);
 }
+
 @font-face {
     font-family: sara;
     src: url(../font/Sora-Light.otf);
 }
+
 @font-face {
     font-family: sara-bold;
     src: url(../font/Sora-ExtraBold.otf);
 }
+
 @font-face {
     font-family: sara-light;
     src: url(../font/Sora-ExtraLight.otf);
@@ -97,18 +100,18 @@ body {
     margin-bottom: 0.5rem;
     display: flex;
     justify-content: space-between;
-    margin-left: 3.5rem;
+    margin-left: 2.5rem;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1rem;
 }
 
 .titulo-nome {
     display: flex;
-    justify-content: space-between;
-    margin-left: 3rem;
+    justify-content: center;
+  
     font-family: sara;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: -0.5rem;
 }
 
@@ -128,7 +131,7 @@ body {
     margin-top: 1.5rem;
 }
 
-.banner-1{
+.banner-1 {
     background: url('../img/banner-gratuito.png');
     width: 23rem;
     height: 13rem;
@@ -140,8 +143,9 @@ body {
     transition: .5s ease all;
 
 }
+
 .banner-1:hover {
-    background: linear-gradient( rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-gratuito.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-gratuito.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -151,13 +155,14 @@ body {
     cursor: pointer;
 
 }
-.banner-1 iframe{
+
+.banner-1 iframe {
     margin-top: 9rem;
     margin-left: 18rem;
 }
 
 /* banner palestra in company */
-.banner-2{
+.banner-2 {
     background: url('../img/banner-in-company.png');
     width: 23rem;
     height: 13rem;
@@ -169,8 +174,9 @@ body {
     transition: .5s ease all;
 
 }
+
 .banner-2:hover {
-    background: linear-gradient( rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-in-company.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-in-company.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -182,7 +188,7 @@ body {
 }
 
 /* banner mentoria */
-.banner-3{
+.banner-3 {
     background: url('../img/banner-mentoria.png');
     width: 23rem;
     height: 13rem;
@@ -194,8 +200,9 @@ body {
     transition: .5s ease all;
 
 }
+
 .banner-3:hover {
-    background: linear-gradient( rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-gratuito.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-gratuito.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -207,7 +214,7 @@ body {
 }
 
 /* banner escritório de advocacia */
-.banner-4{
+.banner-4 {
     background: url('../img/banner-gratuito.png');
     width: 23rem;
     height: 13rem;
@@ -219,8 +226,9 @@ body {
     transition: .5s ease all;
 
 }
+
 .banner-4:hover {
-    background: linear-gradient( rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-gratuito.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-gratuito.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -229,6 +237,34 @@ body {
     border: var(--bege) solid 2px;
     cursor: pointer;
 
+}
+
+/* .circulo-luz {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background:linear-gradient(rgba(207, 165, 116, 0.097), rgba(207, 165, 116, 0.097) 100%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 -50px #ffff,
+    0 0 100px #ffff,
+    0 0 50px #ffff,
+    0 0 75px #ffff;
+    margin-top: -87rem;
+    margin-left: -20rem;
+} */
+
+.pontos-1{
+    font-size: 2rem;
+    margin-top: -83rem;
+    margin-left: -65rem;
+}
+.pontos-2{
+    font-size: 2rem;
+    margin-top: 15rem;
+    margin-left: 55rem;
+}
+[data-entrada]{
+    opacity: 0;
 }
 
 .logo {
