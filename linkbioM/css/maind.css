@@ -108,7 +108,7 @@ body {
 .titulo-nome {
     display: flex;
     justify-content: center;
-  
+
     font-family: sara;
     text-transform: uppercase;
     font-size: 1.7rem;
@@ -132,7 +132,7 @@ body {
 }
 
 .banner-1 {
-    background: url('../img/banner-gratuito.png');
+    background: url('../img/aula-gratuita-2.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -145,7 +145,7 @@ body {
 }
 
 .banner-1:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-gratuito.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/aula-gratuita-2.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -163,7 +163,7 @@ body {
 
 /* banner palestra in company */
 .banner-2 {
-    background: url('../img/banner-in-company.png');
+    background: url('../img/in-company-2.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -176,7 +176,7 @@ body {
 }
 
 .banner-2:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-in-company.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/in-company-2.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -189,7 +189,7 @@ body {
 
 /* banner mentoria */
 .banner-3 {
-    background: url('../img/banner-mentoria.png');
+    background: url('../img/mentoria-2.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -202,7 +202,7 @@ body {
 }
 
 .banner-3:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-gratuito.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/mentoria-2.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -215,7 +215,7 @@ body {
 
 /* banner escritório de advocacia */
 .banner-4 {
-    background: url('../img/banner-gratuito.png');
+    background: url('../img/escritorio-2.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -228,7 +228,7 @@ body {
 }
 
 .banner-4:hover {
-    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/banner-gratuito.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.097), rgba(255, 255, 255, 0.097) 100%), url('../img/escritorio-2.png');
     width: 23rem;
     height: 13rem;
     background-size: cover;
@@ -253,18 +253,34 @@ body {
     margin-left: -20rem;
 } */
 
-.pontos-1{
+.pontos-1 {
     font-size: 2rem;
     margin-top: -83rem;
     margin-left: -65rem;
 }
-.pontos-2{
+
+.pontos-2 {
     font-size: 2rem;
     margin-top: 15rem;
     margin-left: 55rem;
 }
-[data-entrada]{
+
+[data-entrada] {
     opacity: 0;
+    transition: 1s;
+}
+
+[data-entrada="left"] {
+    transform: translate3d(-10rem, 0, 0);
+}
+
+[data-entrada="right"] {
+    transform: translate3d(10rem, 0, 0);
+}
+
+[data-entrada].entrar {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
 }
 
 .logo {
