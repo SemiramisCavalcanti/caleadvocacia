@@ -156,9 +156,11 @@ body {
 
 }
 
-.banner-1 iframe {
+.banner-1 img {
     margin-top: 9rem;
     margin-left: 18rem;
+    width: 100px;
+    height: 100px;
 }
 
 /* banner palestra in company */
@@ -262,7 +264,7 @@ body {
 .pontos-2 {
     font-size: 2rem;
     margin-top: 15rem;
-    margin-left: 55rem;
+    margin-left: 48rem;
 }
 
 [data-entrada] {
@@ -285,4 +287,10 @@ body {
 
 .logo {
     width: 5rem;
+}
+
+@media(max-width:779px){
+    #desktop{
+        display: none;
+    }
 }

@@ -64,18 +64,23 @@
 
         <!-- serviços -->
         <div class="banner-servico">
+            <!-- banner-1 aula gratuita -->
+            <a href="https://chat.whatsapp.com/IMDZqSOYHjiKPvYfa1FPQw">
             <div class="banner-1" data-entrada="left">
-                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2JkNjM2NWRkMjNlOGE2NGNmMWY0NDA3OWQ4MGNiMzdiNmM4NDVkYyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/TLUv2QELPqYHv03BJI/giphy.gif" alt="">
-            </div>
-            <div class="banner-2" data-entrada="right">
-                <a href=""></a>
-            </div>
-            <div class="banner-3" data-entrada="left">
-                <a href=""></a>
-            </div>
-            <div class="banner-4" data-entrada="right">
-                <a href=""></a>
-            </div>
+                  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2JkNjM2NWRkMjNlOGE2NGNmMWY0NDA3OWQ4MGNiMzdiNmM4NDVkYyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PXM/TLUv2QELPqYHv03BJI/giphy.gif" alt=""></div>
+            </a> 
+            <!-- banner-2 palestra in company  -->
+            <a href="https://api.whatsapp.com/send?phone5581996256131=&text=Ol%C3%A1.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Palestra%20in%20Company.">
+            <div class="banner-2" data-entrada="right"></div>
+            </a>
+            <!-- banner-3 mentoria -->
+            <a href="https://api.whatsapp.com/send?phone5581996256131=&text=Ol%C3%A1.%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Mentoria%20para%20Empresários.">
+            <div class="banner-3" data-entrada="left"></div>
+            </a>
+            <!-- banner-4 escritório -->
+            <a href="https://api.whatsapp.com/send?phone5581996256131=&text=Ol%C3%A1.%20Estou%20com%20problemas%20jurídicos.">
+            <div class="banner-4" data-entrada="right"></div>
+            </a>
         </div>
         <!-- logo -->
         <img src="paginas/linkbioM/img/logo-clara.png" alt="" class="logo">
@@ -85,7 +90,7 @@
        
         </div>
 
-        <div class="pontos-2">
+        <div id="desktop" class="pontos-2">
             <p> . </p>
             <p> . </p>
             <p> . </p>
@@ -115,7 +120,7 @@
      
         
 
-        <div class="circulo-luz"></div>
+        <div id="desktop" class="circulo-luz"></div>
 
     </div>
 <script src="paginas/linkbioM/js/linkBioM.js"></script>
